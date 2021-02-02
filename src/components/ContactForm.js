@@ -56,7 +56,7 @@ export default function ContactForm({refreshContact}) {
                         placeholder="Email..."
                         name="email"
                         className="form-control"
-                        value={message}
+                        value={email}
                         onChange={(e) => setEmail(e.target.value)}                     
                     />
                     </div>
